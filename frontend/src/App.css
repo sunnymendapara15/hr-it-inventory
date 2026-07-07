@@ -1,0 +1,135 @@
+.app-shell {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+  color: #0f172a;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header p {
+  color: #475569;
+  max-width: 640px;
+  margin: 0.5rem auto 0;
+}
+
+.panel {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.07);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.panel h2 {
+  margin-top: 0;
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #0f172a;
+}
+
+label span {
+  color: #e11d48;
+  margin-left: 0.25rem;
+}
+
+input,
+textarea {
+  margin-top: 0.35rem;
+  border: 1px solid #cbd5f5;
+  border-radius: 0.5rem;
+  padding: 0.65rem 0.75rem;
+  font-size: 1rem;
+  font-family: inherit;
+  background-color: #f8fafc;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  align-self: flex-start;
+  background: #0ea5e9;
+  color: #fff;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+button:not(:disabled):hover {
+  background: #0284c7;
+}
+
+.message {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.message.error {
+  color: #dc2626;
+}
+
+.message.success {
+  color: #059669;
+}
+
+.panel-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.65rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+th {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #475569;
+}
+
+.empty {
+  margin: 0;
+  color: #475569;
+}
